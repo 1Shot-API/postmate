@@ -1,16 +1,18 @@
 {
   "name": "@1shotapi/postmate",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "A powerful, simple, promise-based postMessage library (fork with Passkeys support)",
   "publishConfig": {
     "access": "public"
   },
   "main": "build/postmate.js",
   "module": "build/postmate.es.js",
+  "types": "postmate.d.ts",
   "unpkg": "build/postmate.min.js",
   "files": [
     "build",
-    "src"
+    "src",
+    "postmate.d.ts"
   ],
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.51",

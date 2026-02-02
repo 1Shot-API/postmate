@@ -1,6 +1,6 @@
 /**
   @1shotapi/postmate - A powerful, simple, promise-based postMessage library (fork with Passkeys support)
-  @version v1.5.4
+  @version v1.5.5
   @link https://github.com/dollarshaveclub/postmate
   @author Jacob Kelley <jakie8@gmail.com>
   @license MIT
