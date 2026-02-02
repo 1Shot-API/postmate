@@ -271,6 +271,7 @@ class Postmate {
     this.frame = document.createElement('iframe')
     this.frame.name = name || ''
     this.frame.classList.add.apply(this.frame.classList, classListArray)
+    this.frame.setAttribute('allow', 'publickey-credentials-get; publickey-credentials-create',)
     container.appendChild(this.frame)
     this.child = this.frame.contentWindow || this.frame.contentDocument.parentWindow
     this.model = model || {}

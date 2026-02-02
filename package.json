@@ -1,7 +1,10 @@
 {
-  "name": "postmate",
-  "version": "1.6.0",
-  "description": "A powerful, simple, promise-based postMessage library",
+  "name": "@1shotapi/postmate",
+  "version": "1.5.4",
+  "description": "A powerful, simple, promise-based postMessage library (fork with Passkeys support)",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "build/postmate.js",
   "module": "build/postmate.es.js",
   "unpkg": "build/postmate.min.js",
@@ -60,7 +63,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dollarshaveclub/postmate.git"
+    "url": "https://github.com/1Shot-API/postmate.git"
   },
   "keywords": [
     "postMessage",
@@ -80,5 +83,6 @@
   "browserslist": [
     "defaults",
     "ie >= 11"
-  ]
+  ],
+  "packageManager": "yarn@4.1.1+sha512.ec40d0639bb307441b945d9467139cbb88d14394baac760b52eca038b330d16542d66fef61574271534ace5a200518dabf3b53a85f1f9e4bfa37141b538a9590"
 }
